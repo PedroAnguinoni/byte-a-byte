@@ -1,0 +1,23 @@
+# --- Dados e Arquivos Grandes ---
+**/data/
+*.csv
+*.zip
+*.json
+*.parquet
+*.h5
+*.pkl
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Ambientes Virtuais e Python ---
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+env/
+
+# --- Credenciais ---
+kaggle.json
